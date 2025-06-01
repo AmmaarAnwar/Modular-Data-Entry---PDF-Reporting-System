@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .border-div{
+        @apply border-2 border-gray-200 rounded-lg p-2 my-2
+    }
+}
+@font-face {
+    font-family: 'Cairo-Regular';
+    src: url('Pages/Tqareer/Cairo_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} 
+*{
+    direction: rtl;
+    box-sizing: border-box;
+    font-family: 'Cairo-Regular';
+}
+#root{
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: (249 250 251 / var(--tw-bg-opacity))
+}
